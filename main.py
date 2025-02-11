@@ -48,6 +48,7 @@ def cmd_home():
     global username
     global password
     print('(1) Home\n')
+    print('Login to view posts.')
     username = input('Username: ')
     password = input('Password: ')
     # TODO: actually authenticate
