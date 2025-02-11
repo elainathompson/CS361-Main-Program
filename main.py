@@ -187,6 +187,8 @@ def cmd_remove():
                 return
             elif yn == 'y':
                 print("proceeding...")
+            # TODO should sync to service. and also this whole block will be
+            # different to work with non-hardcoded data.
             del phony_feeds[choice-1]
             i = 0
             while i < len(phony_posts):
